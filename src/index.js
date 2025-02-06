@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import World from './program';
+import State from './usestate';
+// import Hellworld from './hellopro';
 import reportWebVitals from './reportWebVitals';
+// import Hello from './program';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Hellworld /> */}
+    <World />
+    <State />
   </React.StrictMode>
 );
 
